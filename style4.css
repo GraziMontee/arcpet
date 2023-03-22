@@ -1,0 +1,893 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Creepster&family=Rakkas&family=Rubik+Gemstones&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    margin-top: 0%;
+    width: 100%;
+
+}
+
+header{
+    background-color:#b2cbae;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    margin-top: 1px;
+   
+}
+.logo{
+    position: absolute;
+    top: -42%;
+    margin-left: 2%;
+    height: 150px;
+    width: 150px;
+}
+#nome{
+    position: absolute;
+    width: 55%;
+    height: 30px;
+    margin-left: 10%;
+    margin-top: 1%;
+    border-radius: 5px;
+    border: solid;
+    border-color:aliceblue;
+    box-shadow: 0px 0px 5px #ec790e;
+}
+.lupa{
+    position: absolute;
+    width:20px;
+    height: 20px;
+    margin-top: 1.3%;
+    margin-left: 63%;
+    font-size: 150%;
+    opacity: .7;
+}
+.itens-menu{
+    position: absolute;
+    display: inline-flex;
+    margin-top: 4.5%;
+    list-style: none;
+    margin-left: 65%;
+    gap: 90px;
+    font-size: 65%;
+    font-family: cursive;
+    cursor: pointer;
+    color: #4c705b; 
+    
+}
+.itens-menu a{
+    text-decoration: none;
+    padding: 1.5rem;
+    transform: 2ms ease-in;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+  .dropdown .dropbtn {
+    font-size: 14px;
+    border: none;
+    background-color: #b2cbae;
+    color: #fff;
+    outline: none;
+  }
+  
+
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #fff;
+    color: #ec790e;
+  }
+  
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    margin-right: 100px;
+    z-index: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+  }
+  
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+    display: block;
+   
+  }
+  
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .carrinho{
+    position: absolute;
+    margin-left: 97%;
+    margin-top: 1%;
+    font-size: 170%;
+  }
+
+
+  .carousel{
+    background-color: #ec790e;
+    max-width: 1200px;
+    position: absolute;
+    height: 0px;
+    margin: 2rem auto;
+    border-radius: 20px;
+  
+    
+}
+
+.carousel-item img {
+    
+    display: block;
+    animation: zoom .5s ease;
+    margin-top:10% ;
+    margin-left: 15%;
+    border-radius: 20px;
+    width: 120%;
+}
+
+@keyframes zoom {
+    0%{transform: scale(2);opacity: 0;}
+    100%{transform: scale(1);opacity: 1;}
+}
+
+.carousel-item {
+    display: none;
+}
+
+.carousel-item-active {
+    display: block;
+}
+
+.left-control, .right-control {
+    position: absolute;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 35px;
+    background-color:#ffffff;
+    border: solid 1px;
+    border-color: #da6709;
+    color:#da6709;
+    border-radius: 50%;
+    font-size: 1.4rem;
+    top: 70%;
+    margin-top: 28%;
+   
+    transition: all .5s ease;
+}
+
+
+.left-control {
+    position: absolute;
+    left: 13.5%;
+}
+
+.right-control {
+    position: absolute;
+    left: 133%;
+}
+.card1{
+    position: absolute;
+    background-color:#ddd;
+    display: inline-flex;
+    margin-top: 38%;
+    margin-left: 12%;
+    border-radius: 10px;
+    width: 16%;
+    height: 8%;
+    transition: 0.5s;
+    animation: float 1.8s infinite alternate;
+}
+.card1 h1{
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 7%;
+    color:#060606;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.time{
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 13%;
+    font-size: 170%;
+}
+.card1 a{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 25%;
+    border-radius: 10px;
+    width: 30%;
+    height: 15%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    transition: 0.5s;
+    outline: none;
+    color: #da6709;
+}
+.card2{
+    position: absolute;
+    background-color:#ddd;
+    display: inline-flex;
+    margin-top: 38%;
+    margin-left: 31%;
+    border-radius: 10px;
+    width: 16%;
+    height: 8%;
+    transition: 0.5s;
+    animation: float 1.8s infinite alternate;
+}
+.card2 h1{
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 7%;
+    color:#060606;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.time{
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 13%;
+    font-size: 170%;
+}
+.card2 a{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 25%;
+    border-radius: 10px;
+    width: 30%;
+    height: 15%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    transition: 0.5s;
+    outline: none;
+    color: #da6709;
+}
+.card3{
+    position: absolute;
+    background-color:#ddd;
+    display: inline-flex;
+    margin-top: 38%;
+    margin-left: 50%;
+    border-radius: 10px;
+    width: 16%;
+    height: 8%;
+    transition: 0.5s;
+    animation: float 1.8s infinite alternate;
+}
+.card3 h1{
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 7%;
+    color:#060606;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.time{
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 13%;
+    font-size: 170%;
+}
+.card3 a{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 25%;
+    border-radius: 10px;
+    width: 30%;
+    height: 15%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    transition: 0.5s;
+    outline: none;
+    color: #da6709;
+}
+.card4{
+    position: absolute;
+    background-color:#ddd;
+    display: inline-flex;
+    margin-top: 38%;
+    margin-left: 69%;
+    border-radius: 10px;
+    width: 16%;
+    height: 8%;
+    transition: 0.5s;
+    animation: float 1.8s infinite alternate;
+}
+.card4 h1{
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 7%;
+    color:#060606;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.time{
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 13%;
+    font-size: 170%;
+}
+.card4 a{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 25%;
+    border-radius: 10px;
+    width: 30%;
+    height: 15%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    transition: 0.5s;
+    outline: none;
+    color: #da6709;
+}
+  .product-container{
+    position: absolute;
+    margin-top: 45%;
+    padding: 0 10vw;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    
+}
+.product-container h2{
+    position: absolute;
+    margin-top: 1%;
+    font-size: 130%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.product-container::-webkit-scrollbar{
+    display: none;
+}
+
+.product-card{
+    margin-top: 20%;
+    flex: 0 0 auto;
+    width: 240px;
+    height: 320px;
+    margin-right: 40px;
+    border: solid 1px;
+    border-color: #ec790e;
+   
+}
+
+.product-image{
+    position: relative;
+    width: 55%;
+    height: 120px;
+    overflow: hidden;
+    margin-left: 22%;
+   
+}
+
+.product-thumb{
+    width: 100%;
+    height: 30px;
+    object-fit: cover;
+}
+
+.discount-tag{
+    position: absolute;
+    background:#da6709;
+    padding: 5px;
+    border-radius: 8px;
+    color:#efefef;
+    left: 36%;
+    top: 52%;
+    text-transform: capitalize;
+}
+.card-btn{
+    position: absolute;
+    bottom: 10px;
+    left: 46.8%;
+    margin-top: 40px;
+    border: none;
+    background: #da6709;
+    border-radius: 5px;
+    transform: translateX(-50%);
+    padding: 10px;
+    width: 20%;
+
+}
+
+.product-card:hover .card-btn{
+    opacity: 1;
+}
+
+.card-btn:hover{
+    background: #efefef;
+}
+
+.product-info{
+    width: 100%;
+    height: 100px;
+    padding-top: 1%;
+  
+    
+}
+
+.product-brand{
+    text-transform: uppercase;
+}
+
+.product-short-des{
+    width: 100%;
+    height: 40px;
+    line-height: 20px;
+    overflow: hidden;
+    opacity: 0.5;
+    text-transform: capitalize;
+    margin: 45px 0;
+    margin-left: 5%;
+}
+
+.price{
+    position: absolute;
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: -5%;
+    margin-left: 10px;
+}
+
+.product-container2{
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 16%;
+    padding: 0 10vw;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    
+}
+
+
+.product-container::-webkit-scrollbar{
+    display: none;
+}
+
+.product-card2{
+    margin-top: 20%;
+    flex: 0 0 auto;
+    width: 240px;
+    height: 320px;
+    margin-right: 40px;
+    border: solid 1px;
+    border-color: #ec790e;
+   
+}
+
+.product-image2{
+    position: relative;
+    width: 57%;
+    height: 120px;
+    overflow: hidden;
+    margin-left: 22%;
+   
+}
+
+.product-thumb{
+    width: 100%;
+    height: 30px;
+    object-fit: cover;
+}
+
+.discount-tag{
+    position: absolute;
+    background:#da6709;
+    padding: 5px;
+    border-radius: 8px;
+    color:#efefef;
+    left: 36%;
+    top: 52%;
+    text-transform: capitalize;
+}
+.card-btn{
+    position: absolute;
+    bottom: 10px;
+    left: 46.8%;
+    margin-top: 40px;
+    border: none;
+    background: #da6709;
+    border-radius: 5px;
+    transform: translateX(-50%);
+    padding: 10px;
+    width: 20%;
+
+}
+
+.product-card:hover .card-btn{
+    opacity: 1;
+}
+
+.card-btn:hover{
+    background: #efefef;
+}
+
+.product-info{
+    width: 100%;
+    height: 100px;
+    padding-top: 1%;
+  
+    
+}
+
+.product-brand{
+    text-transform: uppercase;
+}
+
+.product-short-des{
+    width: 100%;
+    height: 40px;
+    line-height: 20px;
+    overflow: hidden;
+    opacity: 0.5;
+    text-transform: capitalize;
+    margin: 45px 0;
+    margin-left: 5%;
+}
+
+.price{
+    position: absolute;
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: -5%;
+    margin-left: 10px;
+}
+.product-container3{
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 32%;
+    padding: 0 10vw;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    
+}
+
+.product-container::-webkit-scrollbar{
+    display: none;
+}
+
+.product-card3{
+    margin-top: 20%;
+    flex: 0 0 auto;
+    width: 240px;
+    height: 320px;
+    margin-right: 40px;
+    border: solid 1px;
+    border-color: #ec790e;
+   
+}
+
+.product-image3{
+    position: relative;
+    width: 55%;
+    height: 120px;
+    overflow: hidden;
+    margin-left: 22%;
+   
+}
+
+.product-thumb{
+    width: 100%;
+    height: 30px;
+    object-fit: cover;
+}
+
+.discount-tag{
+    position: absolute;
+    background:#da6709;
+    padding: 5px;
+    border-radius: 8px;
+    color:#efefef;
+    left: 36%;
+    top: 52%;
+    text-transform: capitalize;
+}
+.card-btn{
+    position: absolute;
+    bottom: 10px;
+    left: 46.8%;
+    margin-top: 40px;
+    border: none;
+    background: #da6709;
+    border-radius: 5px;
+    transform: translateX(-50%);
+    padding: 10px;
+    width: 20%;
+
+}
+
+.product-card:hover .card-btn{
+    opacity: 1;
+}
+
+.card-btn:hover{
+    background: #efefef;
+}
+
+.product-info{
+    width: 100%;
+    height: 100px;
+    padding-top: 1%;
+  
+    
+}
+
+.product-brand{
+    text-transform: uppercase;
+}
+
+.product-short-des{
+    width: 100%;
+    height: 40px;
+    line-height: 20px;
+    overflow: hidden;
+    opacity: 0.5;
+    text-transform: capitalize;
+    margin: 45px 0;
+    margin-left: 5%;
+}
+
+.price{
+    position: absolute;
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: -5%;
+    margin-left: 10px;
+}
+
+  
+.product-container4{
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 48%;
+    padding: 0 10vw;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    
+}
+.product-container::-webkit-scrollbar{
+    display: none;
+}
+
+.product-card4{
+    margin-top: 20%;
+    flex: 0 0 auto;
+    width: 240px;
+    height: 320px;
+    margin-right: 40px;
+    border: solid 1px;
+    border-color: #ec790e;
+   
+}
+
+.product-image4{
+    position: relative;
+    width: 55%;
+    height: 120px;
+    overflow: hidden;
+    margin-left: 22%;
+   
+}
+
+.product-thumb{
+    width: 100%;
+    height: 30px;
+    object-fit: cover;
+}
+
+.discount-tag{
+    position: absolute;
+    background:#da6709;
+    padding: 5px;
+    border-radius: 8px;
+    color:#efefef;
+    left: 36%;
+    top: 52%;
+    text-transform: capitalize;
+}
+.card-btn{
+    position: absolute;
+    bottom: 10px;
+    left: 46.8%;
+    margin-top: 40px;
+    border: none;
+    background: #da6709;
+    border-radius: 5px;
+    transform: translateX(-50%);
+    padding: 10px;
+    width: 20%;
+
+}
+
+.product-card:hover .card-btn{
+    opacity: 1;
+}
+
+.card-btn:hover{
+    background: #efefef;
+}
+
+.product-info{
+    width: 100%;
+    height: 100px;
+    padding-top: 1%;
+  
+    
+}
+
+.product-brand{
+    text-transform: uppercase;
+}
+
+.product-short-des{
+    width: 100%;
+    height: 40px;
+    line-height: 20px;
+    overflow: hidden;
+    opacity: 0.5;
+    text-transform: capitalize;
+    margin: 45px 0;
+    margin-left: 5%;
+}
+
+.price{
+    position: absolute;
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: -5%;
+    margin-left: 10px;
+}
+.product-container5{
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 64%;
+    padding: 0 10vw;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    
+}
+.product-container::-webkit-scrollbar{
+    display: none;
+}
+
+.product-card5{
+    margin-top: 20%;
+    flex: 0 0 auto;
+    width: 240px;
+    height: 320px;
+    margin-right: 40px;
+    border: solid 1px;
+    border-color: #ec790e;
+   
+}
+
+.product-image5{
+    position: relative;
+    width: 55%;
+    height: 120px;
+    overflow: hidden;
+    margin-left: 22%;
+   
+}
+
+.product-thumb{
+    width: 100%;
+    height: 30px;
+    object-fit: cover;
+}
+
+.discount-tag{
+    position: absolute;
+    background:#da6709;
+    padding: 5px;
+    border-radius: 8px;
+    color:#efefef;
+    left: 36%;
+    top: 52%;
+    text-transform: capitalize;
+}
+.card-btn{
+    position: absolute;
+    bottom: 10px;
+    left: 46.8%;
+    margin-top: 40px;
+    border: none;
+    background: #da6709;
+    border-radius: 5px;
+    transform: translateX(-50%);
+    padding: 10px;
+    width: 20%;
+
+}
+
+.product-card:hover .card-btn{
+    opacity: 1;
+}
+
+.card-btn:hover{
+    background: #efefef;
+}
+
+.product-info{
+    width: 100%;
+    height: 100px;
+    padding-top: 1%;
+  
+    
+}
+
+.product-brand{
+    text-transform: uppercase;
+}
+
+.product-short-des{
+    width: 100%;
+    height: 40px;
+    line-height: 20px;
+    overflow: hidden;
+    opacity: 0.5;
+    text-transform: capitalize;
+    margin: 45px 0;
+    margin-left: 5%;
+}
+
+.price{
+    position: absolute;
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: -5%;
+    margin-left: 10px;
+}
+.left-control2, .right-control2 {
+    position: absolute;
+    cursor: pointer;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    line-height: 35px;
+    background-color:#ffffff;
+    border: solid 1px;
+    border-color: #da6709;
+    color:#da6709;
+    border-radius: 50%;
+    font-size: 1.4rem;
+    top: 70%;
+    margin-top: 18%;
+   
+    transition: all .5s ease;
+}
+
+
+.left-control2 {
+    position: absolute;
+    left: 9%;
+}
+
+.right-control2 {
+    position: absolute;
+    left: 86%;
+}
